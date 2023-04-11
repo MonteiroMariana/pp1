@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pp1</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+
+  <form>
+    <form class="row gy-2 gx-3 align-items-center card">
+
+      <div class="col-auto">
+        <div class="col-auto">
+          <label class="visually-hidden" for="autoSizingSelect"></label>
+          <select class="form-select" id="autoSizingSelect">
+            <option selected>Moedas</option>
+            <option value="1">Dolar</option>
+            <option value="2">Euro</option>
+            <option value="3">Real</option>
+          </select>
+
+        </div>
+        <label class="visually-hidden" for="autoSizingInput"></label>
+
+        <input type="text" class="form-control" id="autoSizingInput" placeholder="valor">
+        <br><br>
+      </div>
+
+      <div class="col-auto">
+        <label class="visually-hidden" for="autoSizingSelect"></label>
+        <select class="form-select" id="autoSizingSelect">
+          <option selected>moedas</option>
+          <option value="Dolar">Dolar</option>
+          <option value="Euro">Euro</option>
+          <option value="Real">Real</option>
+        </select>
+
+      </div>
+
+
+      <div class="col-auto">
+        <button type="calcular" class="btn btn-primary">calcular</button><br><br>
+      </div>
+
+      <div class="col-auto">
+        <label class="visually-hidden" for="autoSizingInputGroup"></label>
+        <div class="input-group">
+          <div class="input-group-text">valor do câmbio:</div>
+          <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="">
+        </div>
+      </div>
+
+    </form>
+  </form>
+
+
+  <app-pp1></app-pp1>
+</body>
+</html>
